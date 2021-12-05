@@ -20,12 +20,24 @@ class Model {
         
         // Get a data task from the URLSession object
         let dataTask = session.dataTask(with: url!) { data, response, error in
-            // check if there were any errors
+            
+            // Check if there were any errors
             if error != nil || data == nil {
                 return
             }
+            do{
+            // Parsing the data into video objects
+                let decoder = JSONDecoder()
+                decoder.dateDecodingStrategy = .iso8601
+                let response = try decoder.decode(Response.self, from: data!)
+                
+                dump(response)
+            }
+            catch {
+                
+            }
         }
-            // parsing the data into video objects
+            
         // Kick off the task
         dataTask.resume()
     }

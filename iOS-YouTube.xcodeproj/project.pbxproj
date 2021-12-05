@@ -19,6 +19,7 @@
 		22EFE433275C22B900074B22 /* iOS_YouTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EFE432275C22B900074B22 /* iOS_YouTubeTests.swift */; };
 		22EFE43D275C22B900074B22 /* iOS_YouTubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EFE43C275C22B900074B22 /* iOS_YouTubeUITests.swift */; };
 		22EFE43F275C22B900074B22 /* iOS_YouTubeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EFE43E275C22B900074B22 /* iOS_YouTubeUITestsLaunchTests.swift */; };
+		22F39D62275C522600026F15 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F39D61275C522600026F15 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		22EFE438275C22B900074B22 /* iOS-YouTubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-YouTubeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EFE43C275C22B900074B22 /* iOS_YouTubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_YouTubeUITests.swift; sourceTree = "<group>"; };
 		22EFE43E275C22B900074B22 /* iOS_YouTubeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_YouTubeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22F39D61275C522600026F15 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				2228B889275C419D002BE66A /* Model.swift */,
 				2228B88B275C41B2002BE66A /* Video.swift */,
 				2228B88D275C41C9002BE66A /* Constants.swift */,
+				22F39D61275C522600026F15 /* Response.swift */,
 			);
 			path = "iOS-YouTube";
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				2228B88A275C419D002BE66A /* Model.swift in Sources */,
 				2228B88C275C41B2002BE66A /* Video.swift in Sources */,
 				2228B88E275C41C9002BE66A /* Constants.swift in Sources */,
+				22F39D62275C522600026F15 /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

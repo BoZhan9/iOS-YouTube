@@ -21,6 +21,7 @@
 		22EFE43F275C22B900074B22 /* iOS_YouTubeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EFE43E275C22B900074B22 /* iOS_YouTubeUITestsLaunchTests.swift */; };
 		22F39D62275C522600026F15 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F39D61275C522600026F15 /* Response.swift */; };
 		22F39D64275C59C800026F15 /* ConstantsTemplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F39D63275C59C800026F15 /* ConstantsTemplete.swift */; };
+		22F39D66275C664500026F15 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F39D65275C664500026F15 /* VideoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		22EFE43E275C22B900074B22 /* iOS_YouTubeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_YouTubeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		22F39D61275C522600026F15 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		22F39D63275C59C800026F15 /* ConstantsTemplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplete.swift; sourceTree = "<group>"; };
+		22F39D65275C664500026F15 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,15 +113,14 @@
 			children = (
 				22EFE41B275C22B700074B22 /* AppDelegate.swift */,
 				22EFE41D275C22B700074B22 /* SceneDelegate.swift */,
-				22EFE41F275C22B700074B22 /* ViewController.swift */,
-				22EFE421275C22B700074B22 /* Main.storyboard */,
+				22F39D6B275C66BF00026F15 /* Helpers */,
+				22F39D6A275C66B300026F15 /* Storyboards */,
+				22F39D69275C669F00026F15 /* View Controllers */,
+				22F39D68275C668F00026F15 /* Models */,
+				22F39D67275C668100026F15 /* Views */,
 				22EFE424275C22B900074B22 /* Assets.xcassets */,
-				22EFE426275C22B900074B22 /* LaunchScreen.storyboard */,
 				22EFE429275C22B900074B22 /* Info.plist */,
-				2228B889275C419D002BE66A /* Model.swift */,
-				2228B88B275C41B2002BE66A /* Video.swift */,
 				2228B88D275C41C9002BE66A /* Constants.swift */,
-				22F39D61275C522600026F15 /* Response.swift */,
 				22F39D63275C59C800026F15 /* ConstantsTemplete.swift */,
 			);
 			path = "iOS-YouTube";
@@ -140,6 +141,48 @@
 				22EFE43E275C22B900074B22 /* iOS_YouTubeUITestsLaunchTests.swift */,
 			);
 			path = "iOS-YouTubeUITests";
+			sourceTree = "<group>";
+		};
+		22F39D67275C668100026F15 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				22F39D65275C664500026F15 /* VideoTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		22F39D68275C668F00026F15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2228B889275C419D002BE66A /* Model.swift */,
+				2228B88B275C41B2002BE66A /* Video.swift */,
+				22F39D61275C522600026F15 /* Response.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		22F39D69275C669F00026F15 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				22EFE41F275C22B700074B22 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		22F39D6A275C66B300026F15 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				22EFE421275C22B700074B22 /* Main.storyboard */,
+				22EFE426275C22B900074B22 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		22F39D6B275C66BF00026F15 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +324,7 @@
 				2228B88E275C41C9002BE66A /* Constants.swift in Sources */,
 				22F39D62275C522600026F15 /* Response.swift in Sources */,
 				22F39D64275C59C800026F15 /* ConstantsTemplete.swift in Sources */,
+				22F39D66275C664500026F15 /* VideoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

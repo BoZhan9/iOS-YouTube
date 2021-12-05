@@ -20,6 +20,7 @@
 		22EFE43D275C22B900074B22 /* iOS_YouTubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EFE43C275C22B900074B22 /* iOS_YouTubeUITests.swift */; };
 		22EFE43F275C22B900074B22 /* iOS_YouTubeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EFE43E275C22B900074B22 /* iOS_YouTubeUITestsLaunchTests.swift */; };
 		22F39D62275C522600026F15 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F39D61275C522600026F15 /* Response.swift */; };
+		22F39D64275C59C800026F15 /* ConstantsTemplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F39D63275C59C800026F15 /* ConstantsTemplete.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		22EFE43C275C22B900074B22 /* iOS_YouTubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_YouTubeUITests.swift; sourceTree = "<group>"; };
 		22EFE43E275C22B900074B22 /* iOS_YouTubeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_YouTubeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		22F39D61275C522600026F15 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		22F39D63275C59C800026F15 /* ConstantsTemplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplete.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				2228B88B275C41B2002BE66A /* Video.swift */,
 				2228B88D275C41C9002BE66A /* Constants.swift */,
 				22F39D61275C522600026F15 /* Response.swift */,
+				22F39D63275C59C800026F15 /* ConstantsTemplete.swift */,
 			);
 			path = "iOS-YouTube";
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				2228B88C275C41B2002BE66A /* Video.swift in Sources */,
 				2228B88E275C41C9002BE66A /* Constants.swift in Sources */,
 				22F39D62275C522600026F15 /* Response.swift in Sources */,
+				22F39D64275C59C800026F15 /* ConstantsTemplete.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

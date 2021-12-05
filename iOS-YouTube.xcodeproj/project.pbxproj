@@ -10,6 +10,7 @@
 		2228B88A275C419D002BE66A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2228B889275C419D002BE66A /* Model.swift */; };
 		2228B88C275C41B2002BE66A /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2228B88B275C41B2002BE66A /* Video.swift */; };
 		2228B88E275C41C9002BE66A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2228B88D275C41C9002BE66A /* Constants.swift */; };
+		224D2424275C707300FC3032 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224D2423275C707300FC3032 /* CacheManager.swift */; };
 		22EFE41C275C22B700074B22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EFE41B275C22B700074B22 /* AppDelegate.swift */; };
 		22EFE41E275C22B700074B22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EFE41D275C22B700074B22 /* SceneDelegate.swift */; };
 		22EFE420275C22B700074B22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EFE41F275C22B700074B22 /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 		2228B889275C419D002BE66A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		2228B88B275C41B2002BE66A /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		2228B88D275C41C9002BE66A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		224D2423275C707300FC3032 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		22EFE418275C22B700074B22 /* iOS-YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-YouTube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EFE41B275C22B700074B22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22EFE41D275C22B700074B22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,8 +122,6 @@
 				22F39D67275C668100026F15 /* Views */,
 				22EFE424275C22B900074B22 /* Assets.xcassets */,
 				22EFE429275C22B900074B22 /* Info.plist */,
-				2228B88D275C41C9002BE66A /* Constants.swift */,
-				22F39D63275C59C800026F15 /* ConstantsTemplete.swift */,
 			);
 			path = "iOS-YouTube";
 			sourceTree = "<group>";
@@ -181,6 +181,9 @@
 		22F39D6B275C66BF00026F15 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				2228B88D275C41C9002BE66A /* Constants.swift */,
+				22F39D63275C59C800026F15 /* ConstantsTemplete.swift */,
+				224D2423275C707300FC3032 /* CacheManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				2228B88A275C419D002BE66A /* Model.swift in Sources */,
 				2228B88C275C41B2002BE66A /* Video.swift in Sources */,
 				2228B88E275C41C9002BE66A /* Constants.swift in Sources */,
+				224D2424275C707300FC3032 /* CacheManager.swift in Sources */,
 				22F39D62275C522600026F15 /* Response.swift in Sources */,
 				22F39D64275C59C800026F15 /* ConstantsTemplete.swift in Sources */,
 				22F39D66275C664500026F15 /* VideoTableViewCell.swift in Sources */,
